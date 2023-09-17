@@ -7,19 +7,19 @@ const About = () => {
     <div className="px-[10%] bg-gray-100 py-24">
       <div>
         <div>
-          <h2 className="text-4xl font-extralight text-[#333366]">
+          <h2 className="text-4xl md:text-left text-center font-extralight text-[#333366]">
             Why choose Easybank?
           </h2>
         </div>
-        <div className="py-5">
-          <p className="text-[#999999] font-light text-[15px] w-[52%]">
+        <div className="py-5 md:text-left text-center">
+          <p className="text-[#999999] font-light text-[15px] md:w-[52%] w-[100%]">
             We leverage Open Banking to turn your bank account into your
             financial hub. Control your finances like never before.
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-4 py-5">
-        <div>
+      <div className="grid md:grid-cols-4 grid-cols-1 gap-4 py-5">
+        <div className="md:block flex flex-col items-center">
           <div className="pb-2">
             <img src={Online} alt="online" />
           </div>
@@ -29,13 +29,13 @@ const About = () => {
             </h2>
           </div>
           <div>
-            <p className="text-[#999999] font-light text-[15px]">
+            <p className="text-[#999999] font-light text-[15px] md:text-left text-center">
               Our modern web and mobile applications allow you to keep track of
               your finances wherever you are in the world.
             </p>
           </div>
         </div>
-        <div>
+        <div className="md:block flex flex-col items-center">
           <div className="pb-2">
             <img src={Budgeting} alt="budgeting" />
           </div>
@@ -45,13 +45,13 @@ const About = () => {
             </h2>
           </div>
           <div>
-            <p className="text-[#999999] font-light text-[15px]">
+            <p className="text-[#999999] font-light text-[15px] md:text-left text-center">
               See exactly where your money goes each month. Receive
               notifications when you’re close to hitting your limits.
             </p>
           </div>
         </div>
-        <div>
+        <div className="md:block flex flex-col items-center">
           <div className="pb-2">
             <img src={Onboarding} alt="onboarding" />
           </div>
@@ -61,13 +61,13 @@ const About = () => {
             </h2>
           </div>
           <div>
-            <p className="text-[#999999] font-light text-[15px]">
+            <p className="text-[#999999] font-light text-[15px] md:text-left text-center">
               We don’t do branches. Open your account in minutes online and
               start taking control of your finances right away.
             </p>
           </div>
         </div>
-        <div>
+        <div className="md:block flex flex-col items-center">
           <div className="pb-2">
             <img src={Api} alt="api" />
           </div>
@@ -75,7 +75,7 @@ const About = () => {
             <h2 className="text-xl text-[#333366] font-light">Open API</h2>
           </div>
           <div>
-            <p className="text-[#999999] font-light text-[15px]">
+            <p className="text-[#999999] font-light text-[15px] md:text-left text-center">
               Manage your savings, investments, pension, and much more from one
               account. Tracking your money has never been easier.
             </p>

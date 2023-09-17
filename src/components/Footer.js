@@ -7,46 +7,50 @@ import {
 import { BsPinterest, BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div className="bg-[#333366] px-[10%] py-24">
-      <div className="flex justify-between">
-        <div className=" space-y-12">
-          <div className="relative">
+    <div className="bg-[#333366] md:px-[10%] px-0 py-24">
+      <div className="flex md:justify-between md:flex-row flex-col items-center">
+        <div className="space-y-12">
+          <div className="relative md:block flex flex-col items-center">
             <img src={Logo} alt="logo" />
             <h2 className="text-white font-bold text-2xl tracking-wider absolute top-[-8px] left-7">
               easybank
             </h2>
           </div>
           <div className="flex items-center space-x-3">
-            <AiFillFacebook className="text-white text-lg cursor-pointer" />
-            <AiFillYoutube className="text-white text-lg cursor-pointer" />
-            <AiOutlineTwitter className="text-white text-lg cursor-pointer" />
-            <BsPinterest className="text-white text-lg cursor-pointer" />
-            <BsInstagram className="text-white text-lg cursor-pointer" />
+            <AiFillFacebook className="text-white hover:text-[#00CC66] text-lg cursor-pointer" />
+            <AiFillYoutube className="text-white hover:text-[#00CC66] text-lg cursor-pointer" />
+            <AiOutlineTwitter className="text-white hover:text-[#00CC66] text-lg cursor-pointer" />
+            <BsPinterest className="text-white hover:text-[#00CC66] text-lg cursor-pointer" />
+            <BsInstagram className="text-white hover:text-[#00CC66] text-lg cursor-pointer" />
           </div>
         </div>
-        <div className="text-white font-light leading-8">
+        <div className="text-white font-light text-center leading-8">
           <div>
-            <span className="cursor-pointer">About Us</span>
+            <span className="cursor-pointer hover:text-[#00CC66]">
+              About Us
+            </span>
           </div>
           <div>
-            <span className="cursor-pointer">Contact</span>
+            <span className="cursor-pointer hover:text-[#00CC66]">Contact</span>
           </div>
           <div>
-            <span className="cursor-pointer">Blog</span>
-          </div>
-        </div>
-        <div className="text-white font-light leading-8">
-          <div>
-            <span className="cursor-pointer">Career</span>
-          </div>
-          <div>
-            <span className="cursor-pointer">Support</span>
-          </div>
-          <div>
-            <span className="cursor-pointer">Privacy Policy</span>
+            <span className="cursor-pointer hover:text-[#00CC66]">Blog</span>
           </div>
         </div>
-        <div className="space-y-6">
+        <div className="text-white font-light text-center leading-8">
+          <div>
+            <span className="cursor-pointer hover:text-[#00CC66]">Career</span>
+          </div>
+          <div>
+            <span className="cursor-pointer hover:text-[#00CC66]">Support</span>
+          </div>
+          <div>
+            <span className="cursor-pointer hover:text-[#00CC66]">
+              Privacy Policy
+            </span>
+          </div>
+        </div>
+        <div className="md:space-y-6 md:flex flex-col items-center space-y-0">
           <div>
             <button className="bg-gradient-to-r text-white font-medium from-[#00CC66] to-[#33CCFF] py-3 px-8 rounded-full">
               Request Invite

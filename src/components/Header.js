@@ -22,7 +22,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="relative">
+      <div className="relative hidden">
         <img src={HeaderLogo} alt="header-logo" />
         <img
           className="absolute top-[-100px] right-[-200px] w-[600px]"

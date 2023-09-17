@@ -6,11 +6,11 @@ const Articles = () => {
   return (
     <div className="bg-gray-50 px-[10%] py-24">
       <div className="py-10">
-        <h2 className="text-4xl font-extralight text-[#333366]">
+        <h2 className="text-4xl text-center md:text-left font-extralight text-[#333366]">
           Latest Articles
         </h2>
       </div>
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-4 grid-cols-1 gap-6">
         <div className="bg-white">
           <div>
             <img src={Currency} alt="currency" />
@@ -22,7 +22,7 @@ const Articles = () => {
               </span>
             </div>
             <div className="py-1">
-              <p className="text-xl text-[#333366] font-light">
+              <p className="text-xl hover:text-[#00CC66] cursor-pointer text-[#333366] font-light">
                 Receive money in any currency with no fees
               </p>
             </div>
@@ -45,7 +45,7 @@ const Articles = () => {
               </span>
             </div>
             <div className="py-1">
-              <p className="text-xl text-[#333366] font-light">
+              <p className="text-xl text-[#333366] cursor-pointer hover:text-[#00CC66] font-light">
                 Treat yourself without worrying about money
               </p>
             </div>
@@ -68,7 +68,7 @@ const Articles = () => {
               </span>
             </div>
             <div className="py-1">
-              <p className="text-xl text-[#333366] font-light">
+              <p className="text-xl text-[#333366] cursor-pointer hover:text-[#00CC66] font-light">
                 Take your Easybank card wherever you go
               </p>
             </div>
@@ -91,7 +91,7 @@ const Articles = () => {
               </span>
             </div>
             <div className="py-1">
-              <p className="text-xl text-[#333366] font-light">
+              <p className="text-xl text-[#333366] cursor-pointer hover:text-[#00CC66] font-light">
                 Our invite-only Beta accounts are now live!
               </p>
             </div>
