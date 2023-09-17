@@ -7,7 +7,7 @@ import {
 import { BsPinterest, BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div className="bg-[#333366] md:px-[10%] px-0 py-24">
+    <div className="bg-[#333366] px-[10%] py-24">
       <div className="flex md:justify-between md:flex-row flex-col items-center">
         <div className="space-y-12">
           <div className="relative md:block flex flex-col items-center">
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="md:space-y-6 md:flex flex-col items-center space-y-0">
-          <div>
+          <div className="">
             <button className="bg-gradient-to-r text-white font-medium from-[#00CC66] to-[#33CCFF] py-3 px-8 rounded-full">
               Request Invite
             </button>
